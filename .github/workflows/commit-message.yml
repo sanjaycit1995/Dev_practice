@@ -4,7 +4,7 @@ on:
         branches:
             - main
 jobs:
-    print message:
+    print-message:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
