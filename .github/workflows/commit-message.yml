@@ -10,4 +10,6 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v5
             - name : print commit message
-              run: echo "Commit message: ${{ github.event.head_commit.message }}"
+              run: 
+                echo "Commit message"
+                echo "${{ github.event.head_commit.message }}"
